@@ -1,0 +1,141 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Finéticap" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - link "Create a free account" [ref=e7] [cursor=pointer]:
+          - /url: /signup
+    - main [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: Free calculator · 2026 brackets
+        - heading "Net salary calculator for Costa Rica" [level=1] [ref=e11]
+        - paragraph [ref=e12]: Enter your gross monthly salary and see how much goes to CCSS and salary tax, and how much you actually take home.
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "Your details" [level=2] [ref=e16]
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - generic [ref=e19]: Gross monthly salary (₡)
+              - textbox "Gross monthly salary (₡)" [ref=e20]:
+                - /placeholder: 1.000.000
+                - text: 1.500.000
+            - generic [ref=e21]:
+              - generic [ref=e22]: Dependent children
+              - combobox "Dependent children" [ref=e23]:
+                - option "0"
+                - option "1"
+                - option "2" [selected]
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+            - generic [ref=e24]:
+              - generic [ref=e25]:
+                - generic [ref=e26]: I have a dependent spouse
+                - checkbox "I have a dependent spouse" [checked] [active] [ref=e28]
+              - paragraph [ref=e31]: Only applies if your spouse does not get the tax credit on another salary.
+            - group [ref=e32]:
+              - generic "More deductions (optional)" [ref=e33] [cursor=pointer]
+              - option "0 %" [selected]
+              - option "1 %"
+              - option "2 %"
+              - option "3 %"
+              - option "4 %"
+              - option "5 %"
+              - option "6 %"
+              - option "7 %"
+              - option "8 %"
+        - generic [ref=e36]:
+          - heading "Your estimated net salary" [level=2] [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: ₡1.277.710
+              - paragraph [ref=e100]: per month
+              - paragraph [ref=e101]: "Per fortnight: ₡638.855"
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - term [ref=e104]: Gross salary
+                - definition [ref=e105]: ₡1.500.000
+              - generic [ref=e106]:
+                - term [ref=e107]: CCSS (10.83%)
+                - definition [ref=e108]: − ₡162.450
+              - generic [ref=e109]:
+                - term [ref=e110]:
+                  - text: Salary tax
+                  - generic [ref=e111]: includes ₡6.010 in tax credits
+                - definition [ref=e112]: − ₡59.840
+              - generic [ref=e113]:
+                - term [ref=e114]: Total deductions
+                - definition [ref=e115]: − ₡222.290
+              - generic [ref=e116]:
+                - term [ref=e117]: Net salary
+                - definition [ref=e118]: ₡1.277.710
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: Tax bracket
+                - paragraph [ref=e122]: 15 %
+              - generic [ref=e123]:
+                - paragraph [ref=e124]: Effective tax rate
+                - paragraph [ref=e125]: 3,99 %
+            - paragraph [ref=e41]: This is an estimate using the 2026 rates. It does not include overtime, the aguinaldo bonus, garnishments or other deductions specific to your employer.
+      - generic [ref=e43]:
+        - heading "How your net salary is calculated in Costa Rica" [level=2] [ref=e44]
+        - paragraph [ref=e45]: "Your net salary is what reaches your account after the legal deductions. For an employee there are two: CCSS social security contributions and the salary tax. This calculator uses the rates and brackets in effect since January 1, 2026."
+        - heading "1. CCSS contributions (10.83%)" [level=3] [ref=e46]
+        - paragraph [ref=e47]: "Every salary has 10.83% deducted: 5.50% for health and maternity insurance, 4.33% for the disability, old age and death pension (IVM) and 1% for Banco Popular. It applies to the full gross salary, with no brackets or exempt minimum."
+        - heading "2. Salary tax by brackets (2026)" [level=3] [ref=e48]
+        - paragraph [ref=e49]: "The tax is charged by brackets, so each rate only applies to the part of your salary that falls within its bracket. Earning one more colón never makes you pay more tax on what you already earned. These are the monthly brackets from Executive Decree No. 45333-H:"
+        - table [ref=e51]:
+          - rowgroup [ref=e52]:
+            - row [ref=e53]:
+              - columnheader "Monthly salary" [ref=e54]
+              - columnheader "Rate" [ref=e55]
+          - rowgroup [ref=e56]:
+            - row [ref=e57]:
+              - cell "Up to ₡918.000" [ref=e58]
+              - cell "Exempt" [ref=e59]
+            - row [ref=e60]:
+              - cell "₡918.001 – ₡1.347.000" [ref=e61]
+              - cell "10 %" [ref=e62]
+            - row [ref=e63]:
+              - cell "₡1.347.001 – ₡2.364.000" [ref=e64]
+              - cell "15 %" [ref=e65]
+            - row [ref=e66]:
+              - cell "₡2.364.001 – ₡4.727.000" [ref=e67]
+              - cell "20 %" [ref=e68]
+            - row [ref=e69]:
+              - cell "Over ₡4.727.000" [ref=e70]
+              - cell "25 %" [ref=e71]
+        - paragraph [ref=e72]: For example, with a salary of ₡1,500,000 you pay 10% on the ₡429,000 between ₡918,000 and ₡1,347,000, and 15% on the remaining ₡153,000. That is ₡65,850 in tax per month.
+        - heading "3. Tax credits for children and spouse" [level=3] [ref=e73]
+        - paragraph [ref=e74]: If you have dependent children or a dependent spouse, the tax goes down by ₡1.710 per month for each child and ₡2.590 for the spouse. They are subtracted from the calculated tax, not from the salary, and only one of the spouses can claim them. If your salary pays no tax, the credits do not generate a refund.
+        - heading "4. Voluntary pension" [level=3] [ref=e75]
+        - paragraph [ref=e76]: Contributions to a voluntary pension plan, up to 10% of your gross salary, are exempt from CCSS and from the salary tax (article 71 of the Worker Protection Law). That is why they can lower both deductions at once.
+        - heading "Frequently asked questions" [level=2] [ref=e77]
+        - heading "How much CCSS is deducted in 2026?" [level=3] [ref=e78]
+        - paragraph [ref=e79]: 10.83% of your gross salary. With a ₡1,000,000 salary that is ₡108,300 per month.
+        - heading "From what salary do I pay income tax?" [level=3] [ref=e80]
+        - paragraph [ref=e81]: In 2026, salaries up to ₡918,000 per month are exempt. Only the part above that amount is taxed.
+        - heading "Does the aguinaldo pay CCSS or income tax?" [level=3] [ref=e82]
+        - paragraph [ref=e83]: No. The aguinaldo has no CCSS or salary tax deductions, so it is not part of this calculation.
+        - heading "Why doesn't my pay slip match exactly?" [level=3] [ref=e84]
+        - paragraph [ref=e85]: Your employer may deduct other things, such as the solidarity association, loans, garnishments or insurance. Overtime, commissions or fortnightly payments can also change one month's amount. This calculator gives an estimate with the legal rates so you can plan.
+      - generic [ref=e86]:
+        - heading "Take this calculation to your budget" [level=2] [ref=e87]
+        - paragraph [ref=e88]: In Finéticap the payroll calculator builds your budget lines from your salary, CCSS and income tax. Then you see how much is left for each category, your debts and your savings.
+        - generic [ref=e89]:
+          - link "Create a free account" [ref=e90] [cursor=pointer]:
+            - /url: /signup
+          - link "Discover Finéticap" [ref=e91] [cursor=pointer]:
+            - /url: /
+      - paragraph [ref=e92]:
+        - link "Finéticap" [ref=e93] [cursor=pointer]:
+          - /url: /
+        - link "Security" [ref=e94] [cursor=pointer]:
+          - /url: /seguridad
+        - link "Privacy Policy" [ref=e95] [cursor=pointer]:
+          - /url: /privacidad
+        - link "Terms of Service" [ref=e96] [cursor=pointer]:
+          - /url: /terminos
+  - alert [ref=e97]
