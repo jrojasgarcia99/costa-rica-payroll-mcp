@@ -1,6 +1,6 @@
 {
   "name": "costa-rica-payroll-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Costa Rica payroll: net salary, employer cost, and current payroll rates (2026)",
   "type": "module",
   "bin": {
